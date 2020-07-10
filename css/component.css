@@ -47,6 +47,7 @@
     width: 100%;
     height: 100%;
     background: linear-gradient(60deg,#4e4f95,#c87db4);
+    /* 漸層記得不是用bg-color */
     opacity: 0.6;
 }
 /* lean-bg
@@ -341,6 +342,7 @@
     transition: all 0.3s;
     opacity: 0;
     visibility: hidden;
+    /* 利用透明度與能見度才可以呈現出變化時間的效果 */
 }
 #popup-overlay:target{
     opacity: 1;

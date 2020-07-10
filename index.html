@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=0">
@@ -11,27 +12,85 @@
     <link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="./css/component.css">
 </head>
+
 <body>
     <div class="wrapper">
-    <!-- Start bg -->
-    <div class="bg"></div>
-    <!-- End bg -->
+        <!-- Start bg -->
+        <div class="bg"></div>
+        <!-- End bg -->
 
-    <!-- Start header -->
-    <header></header>
-    <!-- End header -->
+        <!-- Start header -->
+        <header class="header">
+            <div class="container">
+                <div class="navbar u-clearfix">
+                    <div class="social-bar navbar__social-bar">
+                        <!-- navbar裡面的social-bar -->
+                        <a href="#" class="icon-btn">
+                            <i class="icon 
+                       icon-facebook-official">
+                            </i>
+                        </a>
+                        <a href="#" class="icon-btn">
+                            <i class=" icon 
+                        icon-dribbble">
+                            </i>
+                        </a>
+                        <a href="#" class="icon-btn">
+                            <i class="icon 
+                        icon-behance">
+                            </i>
+                        </a>
+                    </div>
+                    <div class="nav navbar__nav">
+                        <a href="#popup-overlay" class="menu-toggle">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                        <div id="popup-overlay" class="popup-menu">
+                            <div class="container">
+                                <div class="u-clearfix">
+                                    <a href="#" class="popup-menu__close">
+                                        <span></span>
+                                        <span></span>
+                                    </a>
+                                </div>
+                                <ul>
+                                    <li><a href="#" class="popup-menu__item">ABOUT</a></li>
+                                    <li><a href="#" class="popup-menu__item">SKILL</a></li>
+                                    <li><a href="#" class="popup-menu__item">EXPERIENCE</a></li>
+                                    <li><a href="#" class="popup-menu__item">MY WORK</a></li>
+                                    <li><a href="#" class="popup-menu__item">CONTACT</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End header -->
 
-    <!-- Start main -->
-    <section class="main">
+        <!-- Start main -->
+        <section class="main">
+            <!-- Start about -->
+            <div class="hero">
+                <div class="container">
+                    <div class="hero__content">
+                        <h1 class="hero__heading">HELLO<br>I'm Ian</h1>
+                    </div>
+                    <a href="#" class="btn btn--primary btn--md">Contact</a>
+                </div>
+            </div>
+            <!-- End about -->
+        </section>
+        <!-- End main -->
 
-    </section>
-    <!-- End main -->
+        <!-- Start footer -->
+        <footer>
 
-    <!-- Start footer -->
-    <footer>
-
-    </footer>
-    <!-- End footer -->
+        </footer>
+        <!-- End footer -->
     </div>
 </body>
+
 </html>
