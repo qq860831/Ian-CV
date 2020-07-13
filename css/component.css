@@ -69,6 +69,7 @@
 .lean-bg--top:before{
     top: 0;
     transform: skewY(-5deg) translateY(-50%);
+    /* skew代表傾斜 */
 }
 .lean-bg--bottom:after{
     bottom: 0;
@@ -257,6 +258,47 @@
     height: 100%;
     background-size: cover;
     background-position: center;
+    background-image: url(../images/works/thumbnail/work001_thumb.jpg);
+}
+.imgbox__inner .image2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/works/thumbnail/work002_thumb.jpg);
+}
+.imgbox__inner .image3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/works/thumbnail/work003_thumb.jpg);
+}
+.imgbox__inner .image4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/works/thumbnail/work004_thumb.jpg);
+}
+.imgbox__inner .image5{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/works/thumbnail/work005_thumb.jpg);
 }
 /*-------------------------*/
 /* $Header
@@ -605,6 +647,7 @@
     background-color: #fefefe;
     border-radius: 4px;
     width: calc(50% - 24px);
+    /* 跟時間軸之間的距離 */
     box-shadow: 0 3px 10px rgba(0,0,0,0.5);
 }
 .timeline-card:before{
@@ -618,10 +661,12 @@
     top: 50%;
 }
 .timeline-cards__row:nth-child(odd) > :before{
+    /* odd:選取奇數個 */
     transform: translate(50%,-50%);
     right: -24px;
 }
 .timeline-cards__row:nth-child(even) > :before{
+    /* even:選取偶數個 */
     transform: translate(-50%,-50%);
     left: -24px;
 }
@@ -830,6 +875,7 @@
 }
 @media (max-width: 768px){
     [class^="graphic_"]{
+        /* 代表graphic內的樣式 */
         transform: scale(0.5);
     }
 }
